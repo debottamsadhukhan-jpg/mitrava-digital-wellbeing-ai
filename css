@@ -1,0 +1,33 @@
+mitrava-digital-wellbeing-ai/
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+│
+├── data/
+│   ├── raw/
+│   │   └── usage_logs.csv
+│   ├── processed/
+│   │   └── features.csv
+│
+├── src/
+│   ├── data_collection.py
+│   ├── preprocessing.py
+│   ├── clustering.py
+│   ├── prediction.py
+│   ├── ai_companion.py
+│   ├── peer_benchmarking.py
+│   └── main.py
+│
+├── models/
+│   ├── kmeans_model.pkl
+│   └── decision_tree.pkl
+│
+├── dashboard/
+│   └── dashboard_output.csv
+│
+├── docs/
+│   └── Mitrava_Project_Report.pdf
+│
+└── notebooks/
+    └── experiments.ipynb
